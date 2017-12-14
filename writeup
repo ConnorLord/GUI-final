@@ -1,0 +1,119 @@
+Name: Connor Lord, connor_lord@student.uml.edu, ID: 01409362
+Partner: Orion Dalton, orion_dalton@student.uml.edu, ID: 01375709
+Computer Science Student, UMass Lowell
+Comp.4610, GUI Programming I
+Final Project: creating an online photo portfolio.
+
+
+This project was to create a website for a friend that acted as an online photo 
+portfolio. The portfolio had to be able to be viewed with thumbnails of images 
+that, when clicked on could then display the full image. The images had to be 
+able to be stored in a directory so that they could be kept. The ability to add 
+and delete photos should have been included in this process, but unfortunately I 
+couldn't quite get this feature to work, even with the most simple upload code. 
+It is unfortunate that I let my partner down. The website needed to have an editor 
+that could alter the image and then be able to save it to the user's machine. The 
+application also needed to be able to share to social media as well as to other 
+devices.
+
+We started this project by hashing out what needed to be accomplished, as well as
+what the layout of the website should be. We decided that we should have a row of 
+tabs at the top of our page, where all of the tabs would accomplish an important 
+function of the project. These tabs were: Photos (to display all current photos), 
+Add Photo (to add another photo to the gallery), Delete Photo (to erase a photo
+from the gallery), and finally Edit Photo (to make changes to a photo). To display
+the photos in the Photos tab, we decided on using a lightbox, where photos could be
+clicked on and a modal would open up to display the chosen image. The lightbox would 
+then have arrows pointing left and right to tranfer to the preceding and following 
+photo, and x at the top of the modal to erase itself and bring the view back to the
+webpage, and thumbnails at the bottom of the modal that could be used to change the 
+display to other images. Both the Add Photo and Delete Photo tabs are unfortunately
+unoperational, as with both my partner and I attempting to create the simplest code
+for uploading and deleting repeatedly resulted in failure. The Edit Photo tab took 
+the most work and collaboration between my partner and I. I managed to find a decent 
+plugin when searching for image editors, Camanjs. After learning how to use the editor,
+I created a webpage that would let the user edit a single image and save the image to
+their machine. The code that I based my editor on had custom filters on it that I 
+decided to use for the project. My partner then managed to take the application I made 
+with camanjs, and made it dynamic, so that it would work with many different images. 
+The Edit Photos tab also features FaceBook share and Tweet buttons so that the website 
+has social media sharing ability. The css was a split effort as my partner and I worked 
+on that at the same time. As a little added touch, I decided to give the webpage its 
+own favicon for its browser tab, named favicon.ico. I made this file within photoshop.
+
+contents:
+	Editor.css
+	final.css
+	Editor.php
+	favicon.ico
+	Final.php
+	Final2.php
+	Final3.php
+	Final4.php
+	tab1.php
+	tab2.php
+	tab3.php
+	tab4.php
+
+All of these files with the exception of the tab files and the favicon file were made
+by using code online (that will be specified below). The previously mentioned files 
+were created entirely by my partner and I.
+
+Distribution of Content:
+
+Connor:
+	lightbox (modal)
+	image editor (camanjs)
+	Webpage icon
+	social media sharing
+	Image saving (camanjs)
+
+Orion:
+	Basic website layout 
+	Meshing code segments together
+	Debugging/error checking
+
+Both:
+	Work on submission/deletion
+	CSS and final page layout
+
+
+Instructions:
+1. Click on the different tabs to get to different parts of the application.
+2. In Photos, click on the different thumbnails to view different images. 
+3. Use the prev and next arrows to navigate through the portfolio. 
+4. The add and delete tabs are unworing, so ignore those.
+5. The Edit Photos tab works similar to the Photos tab, except when an image
+   is pressed, a modal does not appear, instead the image will be displayed on 
+   the page.
+6. To edit the image, use the sliders and filter buttons to alter the image to
+   your specifications. 
+7. The four sliders are Hue, Contrast, Vibrance, and Sepia, and they update the 
+   photo's respective attributes accordingly. 
+8. The buttons apply filters to the image immediately, and can be pressed multiple 
+   times to apply their alterations multiple times.
+9. Once all alterations are made, then the photo can either be reset to it's original
+   view, or saved to the user's machine.
+10.Finally, the page can then be shared to either facebook or twitter via the 
+   appropriate share button.
+
+
+This is the unworking image uploading code source.
+http://jsbin.com/uboqu3/1/edit?html
+
+This is where the information for creating a facebook share button is.
+https://developers.facebook.com/docs/plugins/share-button
+
+This is where the information to create a twitter tweet button is.
+https://dev.twitter.com/web/javascript/loading
+
+This was the staring code that was used to create our modal images, for the lightbox.
+https://www.w3schools.com/howto/howto_css_modal_images.asp
+
+This was the site that was used to start creating an image editor.
+https://www.sitepoint.com/manipulating-images-web-pages-camanjs/
+
+
+
+
+
